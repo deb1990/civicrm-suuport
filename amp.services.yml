@@ -8,5 +8,5 @@ parameters:
     httpd_type: apache24
     httpd_visibility: all
     httpd_shared_ports: '7979'
-    httpd_restart_command: 'service apache2 restart'
+    httpd_restart_command: 'sudo /usr/sbin/apachectl restart'
 services: {  }
